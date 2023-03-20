@@ -9,7 +9,7 @@ int main(void)
 
 	for (c = 97; c <= 122; c++)
 	{
-		if (c == 101 || c == 103)
+		if (c == 101 || c == 113)
 		{
 			continue;
 		}
