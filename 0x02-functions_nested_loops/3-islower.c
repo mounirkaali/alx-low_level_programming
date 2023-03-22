@@ -4,7 +4,7 @@
  *
  * @c: parameter to be printed
  *
- * Return -  1 if is lower and 0 if otherwise
+ * Return: 1 if is lower and 0 if otherwise
  */
 int _islower(int c)
 {
