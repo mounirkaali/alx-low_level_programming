@@ -7,9 +7,9 @@
  *
  * Return: Always 0.
 */
-int main(void)
+#include "main.h"
+void positive_or_negative(int n)
 {
-	int n;
 
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
@@ -21,5 +21,4 @@ int main(void)
 	else
 		printf("%d is zero\n", n);
 
-	return (0);
 }
